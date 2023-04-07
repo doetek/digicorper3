@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("images/imge2.jpeg");
+  height: 210vh;
+}
+
+header {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
+
+header h2 {
+  width: 100%;
+  background-color: antiquewhite;
+  text-align: center;
+  font-weight: bold;
+  color: #000000af;
+}
+
+section {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.main-section {
+  margin-top: 50px;
+}
+
+.part1 {
+  background: white;
+  width: 80%;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  height: 630px;
+}
+.part11 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.part1 h2,
+h3 {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  color: #000000af;
+}
+
+.part1 h3 {
+  padding: 0px 10px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+ul {
+  padding: 0px 35px;
+}
+li {
+  padding: 5px 0px;
+}
+
+.part1 p {
+  margin: auto;
+  padding: 15px;
+  text-align: left;
+}
+
+.part2 {
+  background: white;
+  height: 550px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  color: black;
+}
+
+.report1 {
+  margin-top: 25px;
+}
+
+.form-style {
+  margin-top: 10px;
+}
+
+.part2 input,
+button {
+  width: 300px;
+  padding: 13px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #00000067;
+  background: #0000000a;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+button {
+  width: 300px;
+  background: #29f829b4;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #096909b4;
+}
+
+.part22 h2 {
+  padding: 10px;
+  color: #000000af;
+}
+
+.form-style {
+  margin-bottom: 10px;
+}
+
+.main-result h3 {
+  border: 1px solid #0000005e;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 45px;
+  font-size: 14px;
+  padding: 13px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.report1 {
+  padding: 20px;
+  margin: auto;
+}
+
+.main-report {
+  border: 1px solid #0000005e;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  background: #0000000a;
+}
+
+@media (min-width: 700px) {
+  body {
+    height: 130vh;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 20px;
+  }
+
+  .part1 {
+    width: 50%;
+    margin: auto;
+    border: none;
+    text-align: center;
+    background: #fffffffa;
+  }
+
+  .part2 {
+    height: 550px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background: #fffffff8;
+    color: black;
+  }
+
+  ul {
+    text-align: left;
+  }
+}
