@@ -14,64 +14,71 @@
     />
   </head>
   <body>
-    <header>
-      <h2>BMI CALCULATOR</h2>
-    </header>
-    <section class="main-section">
-      <div class="part1 part11">
-        <h2>Body Mass Index Calculator (BMI)</h2>
-        <p>
-          Body mass index calculator is used to estimate your total amount of
-          fat. It is only an approximate measure of the best weight for your
-          health.
-        </p>
-        <h3>What Your BMI Means</h3>
-        <p>
-          Once you have measured your BMI, you can determine your healthy weight
-          range. If your BMI is:
-        </p>
-        <ul>
-          <li>
-            Under 18.5 - you are very underweight and possibly malnourished.
-          </li>
-          <li>
-            Between 18.5 to 24.9 - you are a healthy weight range for young and
-            middle-aged adults.
-          </li>
-          <li>Between 25.0 to 29.9 - you are overweight.</li>
-          <li>Over 30 - you are obese.</li>
-        </ul>
-      </div>
-
-      <div class="part2 part22">
-        <h2>Calculate Your BMI Here</h2>
-
-        <form action="" class="form-style">
-          <label for="height">Height</label><br /><input
-            id="heightValue"
-            type="number"
-            placeholder="(between 100 and 300)                         cm "
-            style="font-size: 12px"
-          /><br />
-          <label for="height">Weight</label><br />
-          <input
-            id="weightValue"
-            type="number"
-            placeholder="(between 25 and 300)                           kg"
-            style="font-size: 12px"
-          />
-          <br />
-          <button onclick="userBk();" type="button">Calculate</button>
-        </form>
-
-        <div class="main-result">
-          <h3 id="result"></h3>
+    <main>
+      <header>
+        <h2>BMI CALCULATOR</h2>
+      </header>
+      <section class="main-section">
+        <div class="part1 part11">
+          <h2>Body Mass Index Calculator (BMI)</h2>
+          <p>
+            Body mass index calculator is used to estimate your total amount of
+            fat. It is only an approximate measure of the best weight for your
+            health.
+          </p>
+          <h3>What Your BMI Means</h3>
+          <p>
+            Once you have measured your BMI, you can determine your healthy weight
+            range. If your BMI is:
+          </p>
+          <ul>
+            <li>
+              Under 18.5 - you are very underweight and possibly malnourished.
+            </li>
+            <li>
+              Between 18.5 to 24.9 - you are a healthy weight range for young and
+              middle-aged adults.
+            </li>
+            <li>Between 25.0 to 29.9 - you are overweight.</li>
+            <li>Over 30 - you are obese.</li>
+          </ul>
         </div>
-        <div class="main-report">
-          <p id="report" class="report1"></p>
+  
+        <div class="part2 part22">
+          <h2>Calculate Your BMI Here</h2>
+  
+          <form action="" class="form-style">
+            <label for="height">Height</label><br /><input
+              id="heightValue"
+              type="number"
+              placeholder="(between 100 and 300)                         cm "
+              style="font-size: 12px"
+            /><br />
+            <label for="height">Weight</label><br />
+            <input
+              id="weightValue"
+              type="number"
+              placeholder="(between 25 and 300)                           kg"
+              style="font-size: 12px"
+            />
+            <br />
+            <button onclick="userBk();" type="button">Calculate</button>
+          </form>
+  
+          <div class="main-result">
+            <h3 id="result"></h3>
+          </div>
+          <div class="main-report">
+            <p id="report" class="report1"></p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+  
+
+
+    </main>
+   
+    
 
     <script src="app.js"></script>
   </body>
