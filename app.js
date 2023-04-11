@@ -6,29 +6,29 @@ const userBk = () => {
 
   output.innerHTML = ` Your BMI score is : ${(
     weightVal /
-    (heightVal / 100) ** 2
-  ).toFixed(1)}  ${"kg/m&sup2"}`;
-  let userHeight = (heightVal / 100) ** 2;
+    (heightVal * heightVal)
+  ).toFixed(2)}  ${"kg/m&sup2"}`;
+  let userHeight = (heightVal * heightVal) ;
   const underWeight = 18.5;
   const healthyWeight = 24.9;
   const overWeight = 29.9;
   const obese = 30;
 
-  const sum = weightVal / userHeight;
+  const bmi = weightVal / userHeight;
 
-  if (sum < underWeight) {
+  if (bmi < underWeight) {
     userReport.innerHTML =
       "Your BMI result indicates you are in the underweight category.";
   } else {
-    if (sum < underWeight || healthyWeight > sum) {
+    if (bmi < underWeight || healthyWeight > bmi) {
       userReport.innerHTML =
-        "Your BMI result indicates you are in the healthy weight category.";
+        "Your BMI result indicates you are in the normal weight category.";
     } else {
-      if (sum < healthyWeight || overWeight > sum) {
+      if (bmi < healthyWeight || overWeight > bmi) {
         userReport.innerHTML =
           "Your BMI result indicates you are in the over weight category.";
       } else {
-        if (sum > obese) {
+        if (bmi > obese) {
           userReport.innerHTML =
             "Your BMI result indicates you are in the obese category.";
         }
