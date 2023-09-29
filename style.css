@@ -5,7 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 main {
   background: url("images/christmas-1911637_960_720.jpg");
   background-position: center;
@@ -202,9 +201,9 @@ button:hover {
   }
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
 
 main{
   max-height: 100vh;
 }
-}
+} */
