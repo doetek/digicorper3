@@ -2,17 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
-  background: url("images/christmas-1911637_960_720.jpg");
+  background: url('images/christmas-1911637_960_720.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
- 
 }
 
 header {
@@ -22,7 +19,6 @@ header {
   z-index: 9;
   width: 100%;
   height: 100px;
-
 }
 
 header h2 {
@@ -37,7 +33,6 @@ section {
   display: block;
   margin: auto;
   width: 100%;
- 
 }
 
 .part1 {
@@ -171,15 +166,13 @@ button:hover {
 }
 
 @media only screen and (min-width: 800px) {
-
- main{
-  padding-bottom: 100vh;
- }
+  main {
+    padding-bottom: 50vh;
+  }
   section {
     display: flex;
     justify-content: space-between;
-    padding-top: 200px;
-  
+    padding-top: 10px;
   }
 
   .part1 {
@@ -206,4 +199,3 @@ button:hover {
     text-align: left;
   }
 }
-
