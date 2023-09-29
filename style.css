@@ -172,7 +172,7 @@ button:hover {
 @media only screen and (min-width: 800px) {
 
  main{
-  padding-bottom: 200px;
+  padding-bottom: 100vh;
  }
   section {
     display: flex;
