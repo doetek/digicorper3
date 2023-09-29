@@ -37,6 +37,7 @@ section {
   display: block;
   margin: auto;
   width: 100%;
+ 
 }
 
 .part1 {
@@ -177,6 +178,7 @@ button:hover {
   section {
     display: flex;
     justify-content: space-between;
+    padding-top: 200px;
   
   }
 
